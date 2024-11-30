@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf8
 
-""" AudioAdapter class defintion. """
+""" AudioAdapter class definition. """
 
 from abc import ABC, abstractmethod
 from importlib import import_module
