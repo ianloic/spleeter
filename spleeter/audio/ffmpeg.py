@@ -38,7 +38,7 @@ class FFMPEGProcessAudioAdapter(AudioAdapter):
     subprocess in order to perform I/O operation for audio processing.
 
     When created, FFMPEG binary path will be checked and expended,
-    raising exception if not found. Such path could be infered using
+    raising exception if not found. Such path could be inferred using
     `FFMPEG_PATH` environment variable.
     """
 
@@ -182,4 +182,4 @@ class FFMPEGProcessAudioAdapter(AudioAdapter):
             process.wait()
         except IOError:
             raise SpleeterError(f"FFMPEG error: {process.stderr.read()}")
-        logger.info(f"File {path} written succesfully")
+        logger.info(f"File {path} written successfully")
