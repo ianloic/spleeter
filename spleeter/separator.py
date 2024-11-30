@@ -324,7 +324,7 @@ class Separator(object):
             sources (Dict):
                 Dictionary of sources to be exported. The keys are the name
                 of the instruments, and the values are `N x 2` numpy arrays
-                containing the corresponding intrument waveform, as
+                containing the corresponding instrument waveform, as
                 returned by the separate method
             audio_descriptor (AudioDescriptor):
                 Describe song to separate, used by audio adapter to
